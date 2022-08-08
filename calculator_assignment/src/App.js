@@ -28,7 +28,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + 1);
-              document.querySelector(".screen").value = screen;
             }}
           >
             1
@@ -37,7 +36,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + 2);
-              document.querySelector(".screen").value = screen;
             }}
           >
             2
@@ -46,7 +44,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + 3);
-              document.querySelector(".screen").value = screen;
             }}
           >
             3
@@ -55,7 +52,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + "/");
-              document.querySelector(".screen").value = screen;
             }}
           >
             /
@@ -66,7 +62,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + 4);
-              document.querySelector(".screen").value = screen;
             }}
           >
             4
@@ -75,7 +70,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + 5);
-              document.querySelector(".screen").value = screen;
             }}
           >
             5
@@ -84,7 +78,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + 6);
-              document.querySelector(".screen").value = screen;
             }}
           >
             6
@@ -93,7 +86,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + "-");
-              document.querySelector(".screen").value = screen;
             }}
           >
             -
@@ -104,7 +96,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + 7);
-              document.querySelector(".screen").value = screen;
             }}
           >
             7
@@ -113,7 +104,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + 8);
-              document.querySelector(".screen").value = screen;
             }}
           >
             8
@@ -122,7 +112,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + 9);
-              document.querySelector(".screen").value = screen;
             }}
           >
             9
@@ -131,7 +120,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + "+");
-              document.querySelector(".screen").value = screen;
             }}
           >
             +
@@ -142,7 +130,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + ".");
-              document.querySelector(".screen").value = screen;
             }}
           >
             .
@@ -151,7 +138,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + 0);
-              document.querySelector(".screen").value = screen;
             }}
           >
             0
@@ -163,7 +149,6 @@ function App() {
             className="column"
             onClick={() => {
               setScreen(screen + "*");
-              document.querySelector(".screen").value = screen;
             }}
           >
             *
